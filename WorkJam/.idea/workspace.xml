@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a23e3668-a220-4ed1-b222-fb00f70eb7c2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bWd0HgfLwmQfaW94W7I2VRkrET" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.java.com.workjam" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PaginationServiceImplTest">
+    <configuration name="PaginationServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkJam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.workjam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.workjam" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.workjam.PaginationServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaginationServiceImplTest.paginate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkJam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.workjam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.workjam" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.workjam.PaginationServiceImplTest" />
+      <option name="METHOD_NAME" value="paginate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaginationServiceImplTest.paginateNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkJam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.workjam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.workjam" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.workjam.PaginationServiceImplTest" />
+      <option name="METHOD_NAME" value="paginateNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserFactoryTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkJam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.workjam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.workjam" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.workjam.UserFactoryTest" />
+      <option name="METHOD_NAME" value="getUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserFactoryTest.getUserNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkJam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.workjam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.workjam" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.workjam.UserFactoryTest" />
+      <option name="METHOD_NAME" value="getUserNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PaginationServiceImplTest" />
+        <item itemvalue="JUnit.UserFactoryTest.getUser" />
+        <item itemvalue="JUnit.UserFactoryTest.getUserNegative" />
+        <item itemvalue="JUnit.PaginationServiceImplTest.paginateNegative" />
+        <item itemvalue="JUnit.PaginationServiceImplTest.paginate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../spark-data/spark-essentials" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spark-data/spark-learning" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spark-streaming" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a23e3668-a220-4ed1-b222-fb00f70eb7c2" name="Default Changelist" comment="" />
+      <created>1588751559477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588751559477</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="224" y="104" key="#UserFactoryTest" timestamp="1588830324669">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="224" y="104" key="#UserFactoryTest/0.0.1440.900@0.0.1440.900" timestamp="1588830324669" />
+    <state x="457" y="97" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1588830286224">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="457" y="97" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1588830286224" />
+    <state x="489" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1588825709561">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="489" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588825709561" />
+    <state x="395" y="186" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588830594952">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="395" y="186" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1588830594952" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1588833077677">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.814@0.23.1440.814" timestamp="1588833077677" />
+    <state width="1388" height="49" key="GridCell.Tab.0.bottom" timestamp="1588874171434">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="49" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588874171434" />
+    <state width="1388" height="49" key="GridCell.Tab.0.center" timestamp="1588874171433">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="49" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588874171433" />
+    <state width="1388" height="49" key="GridCell.Tab.0.left" timestamp="1588874171432">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="49" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588874171432" />
+    <state width="1388" height="49" key="GridCell.Tab.0.right" timestamp="1588874171434">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="49" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588874171434" />
+    <state x="105" y="0" key="SettingsEditor" timestamp="1588829174071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="105" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588829174071" />
+    <state x="351" y="337" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588830609560">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="351" y="337" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1588830609560" />
+    <state x="397" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588833281290">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1588833281290" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WorkJam$UserFactoryTest.ic" NAME="UserFactoryTest Coverage Results" MODIFIED="1588830335458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.com.workjam.*</FILTER>
+    </SUITE>
+  </component>
+</project>
