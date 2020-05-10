@@ -3,8 +3,7 @@ package main.java;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.function.Function;
-import java.util.function.Predicate;
+import java.util.function.*;
 
 public class Lambda {
     public static void main(String[] args) {
@@ -94,8 +93,29 @@ public class Lambda {
         };
         Thread th = new Thread(run1);
         th.start();
-        
 
+        // using predefined functional interfaces
+        Predicate<Employee> p1 = employee -> employee.eno>200 && employee.name.startsWith("S");
+        p1.test(new Employee("Sahil",309));
+
+        Function<String,Integer> lengthLambda = s->s.length();
+
+        Supplier<String> s = () -> {
+            String otp = "";
+            for(int k =0;k<4;k++){
+                otp = otp+(int)(Math.random() * 10);
+            }
+            return otp;
+        };
+        System.out.println(s.get());
+
+        // BiPredicate, takes 2 arguments and returns boolean
+        BiPredicate<Integer, Integer> bp = (a,b) -> (a+b)%2 == 0;
+        bp.test(3,3);
+
+        // BiFunction
+        BiFunction<String, Integer, Employee> bf = (name,eno)-> new Employee(name,eno);
+        System.out.println(bf.apply("New Employee",12345));
 
     }
 }
