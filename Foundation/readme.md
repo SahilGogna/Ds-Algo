@@ -1,5 +1,8 @@
 # List of Questions
 
+## Patterns: 
+Question 13-32 (try to print different patterns)
+
 ## Arrays:
 37. span of array
 38. bar graph
@@ -9,4 +12,7 @@
 ## Stacks: 
 41. duplicate brackets
 42. balanced brackets
-43. next greater element on the right
+43. next greater element on the right (approach from right to left)
+44. next greater element on the right (second approach from left to right)
+45. next greatest element on the left
+46. Stock span
