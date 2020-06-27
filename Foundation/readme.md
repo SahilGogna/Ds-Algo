@@ -15,4 +15,6 @@ Question 13-32 (try to print different patterns)
 43. next greater element on the right (approach from right to left)
 44. next greater element on the right (second approach from left to right)
 45. next greatest element on the left
-46. Stock span
+46. Stock span - variation of next greatest element on the left
+47. Largest area histogram
+48. Sliding window maximum*
