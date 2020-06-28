@@ -1,7 +1,16 @@
 # List of Questions
 
+## Basics
+Question 1-12
+
 ## Patterns: 
 Question 13-32 (try to print different patterns)
+
+## Number System:
+33. convert number base 10 to any base
+34. any bast to base 10
+35. any base to any base
+36. any base addition
 
 ## Arrays:
 37. span of array
