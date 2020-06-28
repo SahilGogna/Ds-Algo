@@ -18,3 +18,4 @@ Question 13-32 (try to print different patterns)
 46. Stock span - variation of next greatest element on the left
 47. Largest area histogram
 48. Sliding window maximum*
+49. Infix evaluation
