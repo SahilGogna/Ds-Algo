@@ -33,3 +33,4 @@ Question 13-32 (try to print different patterns)
 52. Prefix Evaluations and Conversion
 53. Celebrity Problem
 54. Merge Overlapping Intervals
+55. Smallest number following Pattern
