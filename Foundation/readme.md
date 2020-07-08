@@ -34,3 +34,11 @@ Question 13-32 (try to print different patterns)
 53. Celebrity Problem
 54. Merge Overlapping Intervals
 55. Smallest number following Pattern
+
+
+//to do
+Min stack using constant time and space.
+
+## LinkedList:
+56. Basic LinkedList (Custom LinkedList)
+57. Reverse a LinkedList - Pointer Iterative 
