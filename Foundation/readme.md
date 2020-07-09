@@ -42,3 +42,7 @@ Min stack using constant time and space.
 ## LinkedList:
 56. Basic LinkedList (Custom LinkedList)
 57. Reverse a LinkedList - Pointer Iterative 
+59. LinkedList to stack adapter
+60. LinkedList to queue adapter
+61. kth element from the last - iterative approach, no use of size property directly or indirectly
+62. mid of linkedList - iterative approach, no use of size property directly or indirectly

@@ -47,6 +47,54 @@ public class CustomLinkedList {
         }
     }
 
+    public static Node getFirst(CustomLinkedList list){
+        if(list.size == 0){
+            return null;
+        }else{
+            return list.head;
+        }
+    }
+
+    public static Node removeFirst(CustomLinkedList list){
+        if(list.size == 0){
+            return null;
+        }else {
+            Node temp = list.head;
+            list.head = list.head.next;
+            return temp;
+        }
+
+    }
+
+    public static CustomLinkedList addFirst(int val, CustomLinkedList list){
+        Node temp = new Node();
+        temp.val = val;
+
+        if(list.size == 0){
+            temp.next = null;
+        }else{
+            temp.next = list.head;
+        }
+        list.head = temp;
+        list.size++;
+        return list;
+    }
+
+    public static CustomLinkedList addLast(int val, CustomLinkedList list){
+        Node temp = new Node();
+        temp.val = val;
+
+        if(list.size == 0){
+            temp.next = null;
+            list.head = list.tail = temp;
+        }else{
+            list.tail.next = temp;
+            list.tail = temp;
+        }
+        list.size++;
+        return list;
+    }
+
     public static CustomLinkedList prepareLinkedList(){
         CustomLinkedList list = new CustomLinkedList();
         list = insertData(list,4);
@@ -57,16 +105,30 @@ public class CustomLinkedList {
         list = insertData(list,41);
         list = insertData(list,24);
         list = insertData(list,86);
+        list = insertData(list,14);
+        list = insertData(list,23);
+        list = insertData(list,36);
+        list = insertData(list,63);
+        list = insertData(list,78);
+        list = insertData(list,421);
+        list = insertData(list,4);
+        list = insertData(list,806);
 
         return list;
     }
 
     public static void main(String[] args) {
-        CustomLinkedList list = prepareLinkedList();
+        CustomLinkedList list = new CustomLinkedList();
+        list = addFirst(5,list);
+        list = addFirst(2,list);
+        list = addFirst(1,list);
+
         printLinkedList(list);
-        System.out.println("Size of linked list is: "+ list.size);
-        System.out.println("Head of linked list is: "+ list.head.val);
-        System.out.println("Tail of linked list is: "+ list.tail.val);
+
+        System.out.println();
+        System.out.println(getFirst(list).val);
+        System.out.println(removeFirst(list).val);
+        printLinkedList(list);
     }
 
 }
