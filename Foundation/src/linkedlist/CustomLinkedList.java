@@ -6,6 +6,36 @@ public class CustomLinkedList {
     Node tail;
     int size = 0;
 
+    // merging two sorted Lists
+    public static CustomLinkedList mergeTwoSortedLists(CustomLinkedList list1, CustomLinkedList list2) {
+        Node head1 = list1.head;
+        Node head2 = list2.head;
+
+        CustomLinkedList mergedList = new CustomLinkedList();
+
+        while(head1!= null && head2!=null){
+            if(head1.val > head2.val){
+                mergedList = addLast(head2.val, mergedList);
+                head2 = head2.next;
+            }else {
+                mergedList = addLast(head1.val, mergedList);
+                head1 = head1.next;
+            }
+        }
+
+        while(head1!=null){
+            mergedList = addLast(head1.val, mergedList);
+            head1 = head1.next;
+        }
+
+        while(head2!=null){
+            mergedList = addLast(head2.val, mergedList);
+            head2 = head2.next;
+        }
+
+        return mergedList;
+    }
+
     // inner class made static so that main can access it
     // this is a linked list node
     static class Node {
@@ -61,6 +91,7 @@ public class CustomLinkedList {
         }else {
             Node temp = list.head;
             list.head = list.head.next;
+            list.size--;
             return temp;
         }
 
@@ -117,18 +148,54 @@ public class CustomLinkedList {
         return list;
     }
 
-    public static void main(String[] args) {
+    // temp function
+    public static CustomLinkedList l1(){
         CustomLinkedList list = new CustomLinkedList();
-        list = addFirst(5,list);
-        list = addFirst(2,list);
-        list = addFirst(1,list);
+        list = insertData(list,0);
+        list = insertData(list,0);
+        list = insertData(list,0);
+        list = insertData(list,2);
+        list = insertData(list,2);
+        list = insertData(list,4);
+        list = insertData(list,4);
+        list = insertData(list,4);
+        list = insertData(list,6);
+        list = insertData(list,6);
+        list = insertData(list,8);
+        list = insertData(list,8);
+        list = insertData(list,8);
+        list = insertData(list,8);
+        list = insertData(list,8);
 
-        printLinkedList(list);
+        return list;
+    }
 
-        System.out.println();
-        System.out.println(getFirst(list).val);
-        System.out.println(removeFirst(list).val);
-        printLinkedList(list);
+    // temp function
+    public static CustomLinkedList l2(){
+        CustomLinkedList list = new CustomLinkedList();
+        list = insertData(list,1);
+        list = insertData(list,3);
+        list = insertData(list,5);
+        list = insertData(list,7);
+        list = insertData(list,9);
+
+        return list;
+    }
+
+    public static void main(String[] args) {
+//        CustomLinkedList list = new CustomLinkedList();
+//        list = addFirst(5,list);
+//        list = addFirst(2,list);
+//        list = addFirst(1,list);
+//
+//        printLinkedList(list);
+//
+//        System.out.println();
+//        System.out.println(getFirst(list).val);
+//        System.out.println(removeFirst(list).val);
+//        printLinkedList(list);
+
+        printLinkedList(mergeTwoSortedLists(l1(),l2()));
     }
 
 }
