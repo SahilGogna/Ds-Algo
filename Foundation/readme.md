@@ -50,5 +50,5 @@ Min stack using constant time and space.
 64. Remove duplicates from a sorted Linked List
 
 ## Generic Trees:
-65: Constructing and printing a generic tree
+65: Constructing a generic tree, printing, counting size of a generic tree
 
