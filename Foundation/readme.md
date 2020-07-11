@@ -49,3 +49,6 @@ Min stack using constant time and space.
 63. Merge sort 2 linked lists
 64. Remove duplicates from a sorted Linked List
 
+## Generic Trees:
+65: Constructing and printing a generic tree
+
