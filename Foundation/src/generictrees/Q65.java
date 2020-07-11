@@ -46,6 +46,26 @@ public class Q65 {
         return size+1;
     }
 
+    public static int maximum(Node root){
+        int max = Integer.MIN_VALUE;
+        for(Node child: root.children){
+            int childMax = maximum(child);
+            if( childMax > max) max = childMax;
+        }
+        max = Math.max(root.data, max);
+        return max;
+    }
+
+    public static int height(Node root){
+        int height = -1; // we are calculating in terms of edges
+        for(Node child: root.children){
+            int childMaxHeight = height(child);
+            height = Math.max(childMaxHeight, height);
+        }
+        height += 1;
+        return height;
+    }
+
     public static void main(String[] args) {
         int[] arr = {10, 20, 50, -1, 60, -1, -1, 30, 70, -1,
                 80, 110, -1, 120, -1, -1, 90, -1, -1, 40, 100, -1, -1, -1};
@@ -53,6 +73,7 @@ public class Q65 {
         Node  root = formGenericTree(arr);
 //        display(root);
 
-        System.out.println(calculateSize(root));
+//        System.out.println(calculateSize(root));
+        System.out.println(height(root));
     }
 }

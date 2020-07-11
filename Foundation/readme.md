@@ -50,5 +50,7 @@ Min stack using constant time and space.
 64. Remove duplicates from a sorted Linked List
 
 ## Generic Trees:
-65: Constructing a generic tree, printing, counting size of a generic tree
+65: Constructing a generic tree, printing, counting size of a generic tree, maximum in a generic tree, height of a generic tree
+66. pre order and post order traversal
+67. levelorder traversal 
 
