@@ -53,4 +53,6 @@ Min stack using constant time and space.
 65: Constructing a generic tree, printing, counting size of a generic tree, maximum in a generic tree, height of a generic tree
 66. pre order and post order traversal
 67. levelorder traversal 
+68. Level Order traversal - linewise
+69. zigzag traversal 
 
