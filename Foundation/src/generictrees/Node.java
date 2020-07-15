@@ -1,8 +1,9 @@
 package generictrees;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Node {
     int data;
-    ArrayList<Node> children = new ArrayList<>();
+    List<Node> children = new ArrayList<>();
 }
