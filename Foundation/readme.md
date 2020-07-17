@@ -60,3 +60,6 @@ Min stack using constant time and space.
 72. Linearized a generic tree
 73. Find an element in generic tree
 74. Node to Root Path
+75. Lowest common ancestor
+76. Distance between nodes
+77. Are Trees Similar in Shape
