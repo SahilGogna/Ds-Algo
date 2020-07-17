@@ -66,12 +66,28 @@ public class Q72 {
         }
     }
 
+    // efficient approach
+    public static Node linearize2(Node node) {
+        if(node.children.size() == 0) return node;
+
+        Node leftMostTail = linearize2( node.children.get(node.children.size()-1));
+
+        while (node.children.size() > 1) {
+            Node ln = node.children.remove(node.children.size() -1);
+            Node sl = node.children.get(node.children.size() -1);
+            Node secondLastTail = linearize2 (sl);
+            secondLastTail.children.add(ln);
+        }
+
+        return leftMostTail;
+    }
+
     public static void main(String[] args) {
         int[] arr = {10, 20, 50, -1, 60, -1, -1, 30, 70, -1,
                 80, 110, -1, 120, -1, -1, 90, -1, -1, 40, 100, -1, -1, -1};
 
         Node root = formGenericTree(arr);
-        linearize(root);
+        linearize2(root);
         display(root);
     }
 }
