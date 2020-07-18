@@ -63,3 +63,6 @@ Min stack using constant time and space.
 75. Lowest common ancestor
 76. Distance between nodes
 77. Are Trees Similar in Shape
+78. Are Trees Mirror in Shape
+79. Is symmetric 
+
