@@ -65,4 +65,7 @@ Min stack using constant time and space.
 77. Are Trees Similar in Shape
 78. Are Trees Mirror in Shape
 79. Is symmetric 
-
+80. Multi solver, a different approach to look into generic trees (concept builder)
+81. Predecessor and Successor of an element - using travel and change approach
+82. Ceil and Floor
+83. Kth Largest Element
