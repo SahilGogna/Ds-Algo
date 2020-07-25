@@ -17,6 +17,7 @@ Question 13-32 (try to print different patterns)
 38. bar graph
 39. sum of array
 40. difference of 2 arrays
+
 (85). Spiral matrix
 
 ## Stacks: 
