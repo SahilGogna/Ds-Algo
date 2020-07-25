@@ -71,3 +71,6 @@ Min stack using constant time and space.
 82. Ceil and Floor
 83. Kth Largest Element
 84. Node with Maximum Subtree Sum
+
+## Binary Trees:
+86. Constructing and a binary Tree
