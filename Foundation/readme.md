@@ -75,3 +75,4 @@ Min stack using constant time and space.
 
 ## Binary Trees:
 86. Constructing and a binary Tree
+87. Size, height, sum and max in a binary tree
