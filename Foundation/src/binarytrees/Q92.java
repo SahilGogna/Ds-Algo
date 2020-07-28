@@ -3,7 +3,7 @@ package binarytrees;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class Q91 {
+public class Q92 {
 
     public static BTreeNode create(Integer[] arr){
 
@@ -45,22 +45,59 @@ public class Q91 {
         return node;
     }
 
-    public static void printKLevelsDown(BTreeNode node , int level){
-        if( node == null || level < 0){
+    public static ArrayList<BTreeNode> list;
+
+    public static boolean find(BTreeNode node, int data) {
+        if (node == null) {
+            return false;
+        }
+
+        if (node.data == data) {
+            list.add(node);
+            return true;
+        }
+
+        boolean foundInLeftChild = find(node.left, data);
+        if (foundInLeftChild) {
+            list.add(node);
+            return true;
+        }
+
+        boolean foundInRightChild = find(node.right, data);
+        if (foundInRightChild) {
+            list.add(node);
+            return true;
+        }
+
+        return false;
+
+    }
+
+    public static void printKLevelsDown(BTreeNode node, int level, BTreeNode blocker) {
+        if (node == null || level < 0 || node == blocker) {
             return;
         }
-        if(level == 0){
+        if (level == 0) {
             System.out.print(node.data + "\t");
         }
-        printKLevelsDown(node.left, level -1);
-        printKLevelsDown(node.right, level -1);
+        printKLevelsDown(node.left, level - 1, blocker);
+        printKLevelsDown(node.right, level - 1, blocker);
+    }
+
+    public static void printKNodesFar(BTreeNode node, int data, int k) {
+        list = new ArrayList<>();
+        find(node, data);
+        for (int i = 0; i < list.size(); i++) {
+            printKLevelsDown(list.get(i), k - i, i == 0 ? null : list.get(i - 1));
+        }
     }
 
     public static void main(String[] args) {
-        Integer[] arr = {50, 25, 12, null, null, 37, 30,
-                null, null, null, 75, 62, null,
-                70, null,null, 87, null, null};
+        Integer[] arr = {50,25, 12, null ,null, 37, null, null, 75, 62, null ,null ,87, null, null};
         BTreeNode root = create(arr);
-       printKLevelsDown(root, 1);
+
+        printKNodesFar(root, 25,2);
     }
+
+
 }

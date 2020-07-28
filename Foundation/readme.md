@@ -80,3 +80,4 @@ Min stack using constant time and space.
 89. Iterative Pre, Post and In-order traversal in Binary Tree
 90. Node to Root Path
 91. Print K Levels Down
+92. Print Nodes K Level Far
