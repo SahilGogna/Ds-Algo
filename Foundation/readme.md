@@ -82,3 +82,7 @@ Min stack using constant time and space.
 91. Print K Levels Down
 92. Print Nodes K Level Far
 93. Path to Leaf from Root 
+94. Transform to Left Cloned Tree
+95. Print Single Child Nodes 
+96. Remove Leaves from a binary tree
+97. Tilt of a Binary Tree
