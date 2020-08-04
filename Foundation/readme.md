@@ -1,4 +1,5 @@
-# List of Questions
+
+# List of Questions - Data Structures and Algorithms
 
 ## Basics
 Question 1-12
@@ -86,3 +87,7 @@ Min stack using constant time and space.
 95. Print Single Child Nodes 
 96. Remove Leaves from a binary tree
 97. Tilt of a Binary Tree
+
+## Recursion
+98. Print decreasing increasing, increasing decreasing
+99. Factorial of a number
