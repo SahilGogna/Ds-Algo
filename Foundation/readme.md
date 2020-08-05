@@ -91,3 +91,5 @@ Min stack using constant time and space.
 ## Recursion
 98. Print decreasing increasing, increasing decreasing
 99. Factorial of a number
+100. Power (Linear), Power - Logarithmic
+101. Tower of Hanoi
