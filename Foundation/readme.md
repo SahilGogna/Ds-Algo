@@ -93,3 +93,5 @@ Min stack using constant time and space.
 99. Factorial of a number
 100. Power (Linear), Power - Logarithmic
 101. Tower of Hanoi
+102. Display an Array, display an array in reverse
+103. Maximum of an Array
