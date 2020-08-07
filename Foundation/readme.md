@@ -95,3 +95,8 @@ Min stack using constant time and space.
 101. Tower of Hanoi
 102. Display an Array, display an array in reverse
 103. Maximum of an Array
+104. First Index of occurrence
+105. Last Index of occurrence
+106. All Indices in Array
+107. Get Subsequence in a String
+108. Get keypad combination
