@@ -100,3 +100,5 @@ Min stack using constant time and space.
 106. All Indices in Array
 107. Get Subsequence in a String
 108. Get keypad combination
+109. Get stairs path
+110. Get Maze Paths
