@@ -104,3 +104,7 @@ Min stack using constant time and space.
 110. Get Maze Paths
 111. Get Maze Paths with Jump
 112. Print Subsequence
+113. Print Stair Paths 
+114. Print Maze Paths
+115. Print Maze Path with Jumps
+116. Print Permutations
