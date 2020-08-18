@@ -108,3 +108,6 @@ Min stack using constant time and space.
 114. Print Maze Paths
 115. Print Maze Path with Jumps
 116. Print Permutations
+
+## Hashmap and Heap
+117. Highest Frequency Character
