@@ -112,3 +112,6 @@ Min stack using constant time and space.
 ## Hashmap and Heap
 117. Highest Frequency Character
 118. Get Common Element
+119. Longest Consecutive Sequence
+120. find K Largest Elements in an Array - Heap
+121. Sort a nearly Sorted Array
