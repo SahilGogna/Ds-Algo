@@ -111,3 +111,4 @@ Min stack using constant time and space.
 
 ## Hashmap and Heap
 117. Highest Frequency Character
+118. Get Common Element
