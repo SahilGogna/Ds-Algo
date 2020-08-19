@@ -117,3 +117,4 @@ Min stack using constant time and space.
 121. Sort a nearly Sorted Array
 122. Median priority queue
 123. Merge K sorted Lists
+124. Write Priority Queue using Heap
