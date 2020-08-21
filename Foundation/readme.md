@@ -118,3 +118,4 @@ Min stack using constant time and space.
 122. Median priority queue
 123. Merge K sorted Lists
 124. Write Priority Queue using Heap
+125. How to implement Hashmap in Java (Theory required)
