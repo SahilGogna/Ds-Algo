@@ -1,5 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
+# Current Count = 126
 
 ## Basics
 Question 1-12
@@ -108,6 +109,7 @@ Min stack using constant time and space.
 114. Print Maze Paths
 115. Print Maze Path with Jumps
 116. Print Permutations
+126. Print encodings
 
 ## Hashmap and Heap
 117. Highest Frequency Character
