@@ -28,24 +28,24 @@ public class Q126 {
         else {
             // we use first character here
             char ch = question.charAt(0); // get the character
-            String restOfQuestion = question.substring(1);
+            String restOfString = question.substring(1);
 
             if(ch == '0'){ // nothing possible
                 return;
             }else {
                 int charValue = ch - '0'; // we get digit number like 1,2,..26
                 char code = (char) ('a' + charValue - 1); //
-                printEncodings(restOfQuestion, ansSoFar + code);
+                printEncodings(restOfString, ansSoFar + code);
             }
 
             // if we use 2 characters here
             String twoChars = question.substring(0,2);
-            restOfQuestion = question.substring(2);
+            restOfString = question.substring(2);
 
             int twoCharValue = Integer.parseInt(twoChars);
             if( twoCharValue <= 26){
                 char code = (char) ('a' + twoCharValue - 1); //
-                printEncodings(restOfQuestion, ansSoFar + code);
+                printEncodings(restOfString, ansSoFar + code);
             }
 
 
