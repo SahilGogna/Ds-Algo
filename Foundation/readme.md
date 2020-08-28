@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 128
+#### Current Count = 130
 
 ## Basics
 Question 1-12
@@ -18,9 +18,8 @@ Question 13-32 (try to print different patterns)
 37. span of array
 38. bar graph
 39. sum of array
-40. difference of 2 arrays
-
-(85). Spiral matrix
+40. difference of 2 arrays \
+85.. Spiral matrix
 
 ## Stacks: 
 41. duplicate brackets
@@ -113,7 +112,8 @@ Min stack using constant time and space.
 126.. Print encodings \
 127.. Flood Fill \
 128.. Target Sum Subsets \
-129.. N Queens
+129.. N Queens \
+130.. Knights Tour
 
 ## Hashmap and Heap
 117. Highest Frequency Character
