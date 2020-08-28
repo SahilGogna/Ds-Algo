@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-# Current Count = 128
+#### Current Count = 128
 
 ## Basics
 Question 1-12
@@ -112,7 +112,7 @@ Min stack using constant time and space.
 
 126.. Print encodings \
 127.. Flood Fill \
-128.. Target Sum Subsets
+128.. Target Sum Subsets \
 
 ## Hashmap and Heap
 117. Highest Frequency Character
