@@ -113,6 +113,7 @@ Min stack using constant time and space.
 126.. Print encodings \
 127.. Flood Fill \
 128.. Target Sum Subsets \
+129.. N Queens
 
 ## Hashmap and Heap
 117. Highest Frequency Character
