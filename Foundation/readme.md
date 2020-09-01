@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 131
+#### Current Count = 132
 
 ## Basics
 Question 1-12
@@ -128,3 +128,4 @@ Min stack using constant time and space.
 
 ## Binary Search Tree (BST)
 131. Constructing a bst
+132. Size, height, sum and max in a binary tree
