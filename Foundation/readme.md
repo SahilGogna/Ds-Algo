@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 130
+#### Current Count = 131
 
 ## Basics
 Question 1-12
@@ -125,3 +125,6 @@ Min stack using constant time and space.
 123. Merge K sorted Lists
 124. Write Priority Queue using Heap
 125. How to implement Hashmap in Java (Theory required)
+
+## Binary Search Tree (BST)
+131. Constructing a bst
