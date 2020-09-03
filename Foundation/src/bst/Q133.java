@@ -55,11 +55,45 @@ public class Q133 {
         return node;
     }
 
+    public static int max(Node node){
+        if( node.right == null) return node.data;
+        else return max(node.right);
+    }
+
+    public static Node remove(Node node, int data){
+        if( node == null){
+            return null;
+        }
+
+        if( node.data < data){
+            node.right = remove(node.right,data);
+        }else if(node.data > data){
+            node.left = remove(node.left, data);
+        }else {
+            // do removal part here
+            if(node.left != null && node.right != null){
+                int lmax = max(node.left);
+                node.data = lmax;
+                node.left = remove(node.left, lmax);
+                return node;
+            }else if( node.left != null){
+                return node.left;
+            }else if(node.right != null){
+                return node.right;
+            }else {
+                return null;
+            }
+        }
+
+        return node;
+    }
+
     public static void main(String[] args) {
         int[] arr = {12, 25, 37, 50, 62, 75, 87};
         Node root = create(arr, 0, arr.length - 1);
-        Node updatedRoot = addNode(root, 51);
-        display(updatedRoot);
+        display(root);
+        remove(root,25);
+        display(root);
 
     }
 }
