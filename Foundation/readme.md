@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 133
+#### Current Count = 134
 
 ## Basics
 Question 1-12
@@ -130,3 +130,4 @@ Min stack using constant time and space.
 131. Constructing a bst
 132. Size, height, sum and max in a binary tree
 133. Add Node in BST, remove a node in BST
+134. Replace Sum of Larger in BST
