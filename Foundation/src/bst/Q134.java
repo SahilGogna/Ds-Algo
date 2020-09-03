@@ -48,9 +48,11 @@ public class Q134 {
         rws(root);
         display(root);
     }
-    static int sum =0;
-    public static void rws(Node node){
-        if( node == null) return;
+
+    static int sum = 0;
+
+    public static void rws(Node node) {
+        if (node == null) return;
         rws(node.right);
         int od = node.data;
         node.data = sum;

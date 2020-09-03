@@ -55,32 +55,32 @@ public class Q133 {
         return node;
     }
 
-    public static int max(Node node){
-        if( node.right == null) return node.data;
+    public static int max(Node node) {
+        if (node.right == null) return node.data;
         else return max(node.right);
     }
 
-    public static Node remove(Node node, int data){
-        if( node == null){
+    public static Node remove(Node node, int data) {
+        if (node == null) {
             return null;
         }
 
-        if( node.data < data){
-            node.right = remove(node.right,data);
-        }else if(node.data > data){
+        if (node.data < data) {
+            node.right = remove(node.right, data);
+        } else if (node.data > data) {
             node.left = remove(node.left, data);
-        }else {
+        } else {
             // do removal part here
-            if(node.left != null && node.right != null){
+            if (node.left != null && node.right != null) {
                 int lmax = max(node.left);
                 node.data = lmax;
                 node.left = remove(node.left, lmax);
                 return node;
-            }else if( node.left != null){
+            } else if (node.left != null) {
                 return node.left;
-            }else if(node.right != null){
+            } else if (node.right != null) {
                 return node.right;
-            }else {
+            } else {
                 return null;
             }
         }
@@ -88,12 +88,24 @@ public class Q133 {
         return node;
     }
 
+    public static int lca(Node node, int d1, int d2) {
+        if (d1 < node.data && d2 < node.data) {
+            return lca(node.left, d1, d2);
+        } else if (d1 > node.data && d2 > node.data) {
+            return lca(node.right, d1, d2);
+        } else {
+            return node.data;
+        }
+    }
+
     public static void main(String[] args) {
         int[] arr = {12, 25, 37, 50, 62, 75, 87};
         Node root = create(arr, 0, arr.length - 1);
-        display(root);
-        remove(root,25);
-        display(root);
+//        display(root);
+//        remove(root, 25);
+//        display(root);
+
+        System.out.println(lca(root, 87,62));
 
     }
 }
