@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 136
+#### Current Count = 137
 
 ## Basics
 Question 1-12
@@ -135,3 +135,4 @@ Min stack using constant time and space.
 
 ## LeetCode - Arrays
 136. Two Sum
+137. Remove Duplicates from Sorted Array
