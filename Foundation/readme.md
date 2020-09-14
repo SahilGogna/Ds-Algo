@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 134
+#### Current Count = 136
 
 ## Basics
 Question 1-12
@@ -132,3 +132,6 @@ Min stack using constant time and space.
 133. Add Node in BST, remove a node in BST, Lowest common ancestor
 134. Replace Sum of Larger in BST
 135. Print in range in BST
+
+## LeetCode - Arrays
+136. Two Sum
