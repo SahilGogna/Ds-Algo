@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 137
+#### Current Count = 139
 
 ## Basics
 Question 1-12
@@ -19,7 +19,8 @@ Question 13-32 (try to print different patterns)
 38. bar graph
 39. sum of array
 40. difference of 2 arrays \
-85.. Spiral matrix
+85.. Spiral matrix \
+139.. Diff of 2 matrix
 
 ## Stacks: 
 41. duplicate brackets
@@ -136,3 +137,4 @@ Min stack using constant time and space.
 ## LeetCode - Arrays
 136. Two Sum
 137. Remove Duplicates from Sorted Array
+138. Search Insert Position
