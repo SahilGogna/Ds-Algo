@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 140
+#### Current Count = 141
 
 ## Basics
 Question 1-12
@@ -20,7 +20,9 @@ Question 13-32 (try to print different patterns)
 39. sum of array
 40. difference of 2 arrays \
 85.. Spiral matrix \
-139.. Diff of 2 matrix
+139.. Diff of 2 matrix\
+141.. Lexographical ordering (find the greatest number that can be formed by the elements of the array)
+
 
 ## Stacks: 
 41. duplicate brackets
