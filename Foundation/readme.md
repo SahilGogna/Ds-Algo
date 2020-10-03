@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 141
+#### Current Count = 143
 
 ## Basics
 Question 1-12
@@ -144,3 +144,6 @@ Min stack using constant time and space.
 ## InterviewBit- Arrays
 140. Largest Number\
 142.. Add One To Number
+
+## Graphs
+143. Construction of a graph, Find Path in Graphs using Depth First Search
