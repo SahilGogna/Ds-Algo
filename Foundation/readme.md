@@ -146,4 +146,4 @@ Min stack using constant time and space.
 142.. Add One To Number
 
 ## Graphs
-143. Construction of a graph, Find Path in Graphs using Depth First Search
+143. Construction of a graph, Find Path in Graphs using Depth First Search, Print all paths from source to destination

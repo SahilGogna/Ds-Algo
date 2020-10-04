@@ -64,8 +64,23 @@ public class Q143 {
         return false;
     }
 
+    public static void printAllPaths(ArrayList<Edge>[] graph, int src , int des, boolean[] visited, String psf){
+        if(src == des){
+            System.out.println(psf);
+            return;
+        }
+        visited[src] = true;
+        for(Edge edge: graph[src]){
+            if(visited[edge.neighbour] == false){
+                printAllPaths(graph, edge.neighbour,des,visited,psf+edge.neighbour);
+            }
+        }
+        visited[src] = false;
+    }
+
     public static void main(String[] args){
 
-        System.out.println(hasPath(getGraph(),1,6,new boolean[7]));
+//        System.out.println(hasPath(getGraph(),1,6,new boolean[7]));
+        printAllPaths(getGraph(),0,6,new boolean[7],"");
     }
 }
