@@ -1,0 +1,24 @@
+1. We just add spring security dependency and spring auto generates a password with a default username as 'user'.
+
+2. 5 Spring Security Concepts :
+Authentication
+Authorization
+Principal
+Granted Authority
+Roles
+
+3. We can configure this user name and password. One way is we add the value in properties file.
+Eg:
+spring.security.user.name=sahil
+spring.security.user.password=sahil
+
+4. We can use Spring AuthenticationManager
+a. Get hold of Authentication Manager Builder
+b. Set the configuration on it
+
+We tell Authentication Manager Builder what type of authentication we need ( eg. in memory) and the we tell username, 
+password and role. It has a class that has a configure method which takes Authentication Manager Builder. We can override the method
+and do the configuration.
+
+We can also set a password encoder
+
