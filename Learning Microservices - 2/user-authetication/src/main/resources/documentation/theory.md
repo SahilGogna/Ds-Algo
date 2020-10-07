@@ -22,3 +22,8 @@ and do the configuration.
 
 We can also set a password encoder
 
+5. configure Spring security Authorization
+HttpSecurity object lets you configure what are the paths and access restriction on the paths.
+A class should extend WebSecurityConfigurerAdapter, we can override configure method
+and get hold of the HttpSecurity object.
+
