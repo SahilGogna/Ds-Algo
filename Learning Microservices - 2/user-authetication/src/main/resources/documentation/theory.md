@@ -27,3 +27,14 @@ HttpSecurity object lets you configure what are the paths and access restriction
 A class should extend WebSecurityConfigurerAdapter, we can override configure method
 and get hold of the HttpSecurity object.
 
+
+How Spring security authentication works? 
+Via filters , they directs a request to a servlet
+Authentication Manager has authenticate methods and it talks to all the authentication providers in the app( o auth, ..), whichever supports
+it delegates the request to that.
+ _
+|				-> Authentication (credentials) |
+|Auth Filter    	 							| Authentication Manager(authenticate()) -> AuthenticateProvide	-> UserDetailsService
+|				<- Authentication (princiapal) 	|												authenticate()		loadByUserName()
+																								supports()
+
