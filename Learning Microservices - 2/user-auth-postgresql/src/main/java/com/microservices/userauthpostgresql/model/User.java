@@ -1,5 +1,6 @@
 package com.microservices.userauthpostgresql.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,6 +13,8 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
+	
+	@Column(name = "username")
 	private String userName;
 	private String password;
 	private Boolean active;
