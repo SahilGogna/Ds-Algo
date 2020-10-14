@@ -21,7 +21,7 @@ public class UserCommentService {
 	@Autowired
 	UserPostRepo userPostRepo;
 	
-	public ResponseEntity<?> addComment(CommnetRequestEntity commentRequest){
+	public ResponseEntity<Comment> addComment(CommnetRequestEntity commentRequest){
 		Comment comment = new Comment(commentRequest.getPostId(), commentRequest.getUserId(), commentRequest.getCommentText());
 		userCommentRepo.save(comment);
 		
@@ -29,19 +29,19 @@ public class UserCommentService {
 		post.getPostComments().add(comment);
 		userPostRepo.save(post);
 
-		return ResponseEntity.ok().build();
+		return ResponseEntity.ok(comment);
 	}
 	
 	
-	public ResponseEntity<?> updateComment(CommnetRequestEntity commentRequest){
+	public ResponseEntity<Comment> updateComment(CommnetRequestEntity commentRequest){
 		Comment comment = userCommentRepo.findByCommentId(commentRequest.getCommentId());
 		comment.setCommentText(commentRequest.getCommentText());
 		userCommentRepo.save(comment);
 
-		return ResponseEntity.ok().build();
+		return ResponseEntity.ok(comment);
 	}
 	
-	public ResponseEntity<?> deleteComment(CommnetRequestEntity commentRequest){
+	public ResponseEntity<Comment> deleteComment(CommnetRequestEntity commentRequest){
 		
 		Post post = userPostRepo.findByPostId(commentRequest.getPostId());
 		List<Comment> list = post.getPostComments();
@@ -56,6 +56,6 @@ public class UserCommentService {
 		Comment comment = userCommentRepo.findByCommentId(commentRequest.getCommentId());
 		userCommentRepo.delete(comment);
 
-		return ResponseEntity.ok().build();
+		return ResponseEntity.ok(comment);
 	}
 }

@@ -18,6 +18,7 @@ public class Comment {
 	@Column(name = "commentId")
 	private int commentId;
 
+    @JoinColumn(name = "postId")
 	private int postId;
 
 	@Column(name = "userId")
