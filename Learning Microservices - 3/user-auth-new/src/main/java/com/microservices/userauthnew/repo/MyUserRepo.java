@@ -11,4 +11,5 @@ import com.microservices.userauthnew.model.UserEntity;
 public interface MyUserRepo extends JpaRepository<UserEntity, Integer>{
 	Optional<UserEntity> findByUserName(String userName);
 	Optional<UserEntity> findByEmailId(String emailId);
+	UserEntity findById(int id);
 }

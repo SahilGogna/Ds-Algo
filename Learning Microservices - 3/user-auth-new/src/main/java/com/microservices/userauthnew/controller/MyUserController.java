@@ -2,11 +2,14 @@ package com.microservices.userauthnew.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.microservices.userauthnew.model.LoginRequest;
+import com.microservices.userauthnew.model.UserActivityBean;
 import com.microservices.userauthnew.model.UserEntity;
 import com.microservices.userauthnew.service.MyUserService;
 
@@ -24,6 +27,11 @@ public class MyUserController {
 	@PostMapping(path = "/login")
 	public ResponseEntity<?> userLogIn(@RequestBody LoginRequest user) {
 		return service.loginUser(user);
+	}
+	
+	@GetMapping(path = "/getAllPosts/{userId}")
+	public ResponseEntity<UserActivityBean> getAllPost(@PathVariable int userId){
+		return service.getAllUserPosts(userId);
 	}
 	
 }

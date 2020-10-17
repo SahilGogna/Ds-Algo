@@ -41,4 +41,5 @@ public class UserPostService {
 		List<Post> post = userPostRepo.findByUserId(userId);
 		return ResponseEntity.ok(post);
 	}
+	
 }

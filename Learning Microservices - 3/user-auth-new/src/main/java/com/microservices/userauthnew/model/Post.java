@@ -1,4 +1,4 @@
-package com.microservices.userpostcomments.model;
+package com.microservices.userauthnew.model;
 
 import java.io.Serializable;
 import java.util.List;
