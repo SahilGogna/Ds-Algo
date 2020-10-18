@@ -10,10 +10,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.microservices.userauthnew.model.Post;
 
-@FeignClient(name="user-post-comments")
+//@FeignClient(name="user-post-comments")
+// now we want the request to go through zuul api
+@FeignClient(name="netflix-zuul-api-gateway-server")
 @RibbonClient(name="user-post-comments")
 public interface UserPostCommentsProxy {
 
-	@GetMapping(path = "/getAllPost/{userId}")
+	@GetMapping(path = "/user-post-comments/getAllPost/{userId}")
 	public ResponseEntity<List<Post>> getAllPost(@PathVariable("userId") int userId);
 }
