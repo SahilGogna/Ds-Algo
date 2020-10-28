@@ -136,14 +136,15 @@ Min stack using constant time and space.
 134. Replace Sum of Larger in BST
 135. Print in range in BST
 
-## LeetCode - Arrays
+## LeetCode
 136. Two Sum
 137. Remove Duplicates from Sorted Array
 138. Search Insert Position
 
 ## InterviewBit- Arrays
 140. Largest Number\
-142.. Add One To Number
+142.. Add One To Number\
+144.. Cows and Bulls
 
 ## Graphs
 143. Construction of a graph, Find Path in Graphs using Depth First Search, Print all paths from source to destination

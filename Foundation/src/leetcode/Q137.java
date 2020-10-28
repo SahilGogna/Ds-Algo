@@ -1,4 +1,4 @@
-package leetcodearrays;
+package leetcode;
 
 public class Q137 {
     public int removeDuplicates(int[] nums) {
