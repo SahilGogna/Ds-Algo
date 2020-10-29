@@ -1,14 +1,25 @@
 package sortingalgo;
 
-public class Q147 {
+public class Q148 {
     public static void main(String[] args) {
-        int[] arr1 = {2,5,8,12,35};
-        int[] arr2 = {1,9,11,34,56};
-
-        int[] arr = mergeSortedArrays(arr1,arr2);
-        for(int i: arr){
+        int[] arr = {2,5,3,7,4,1,9,6};
+        int[] sortedArr = mergeSortArray(arr,0,arr.length-1);
+        for(int i: sortedArr){
             System.out.print(i+"\t");
         }
+    }
+
+    private static int[] mergeSortArray(int[] arr, int low, int high){
+        if(low == high){
+            int[] ba = new int[1];
+            ba[0] = arr[low];
+            return ba;
+        }
+        int mid = (low + high)/2;
+        int[] arr1 = mergeSortArray(arr, low, mid);
+        int[] arr2 = mergeSortArray(arr,mid+1,high);
+        int[] sortedArr =  mergeSortedArrays(arr1,arr2);
+        return sortedArr;
     }
 
     private static int[] mergeSortedArrays(int[] arr1, int[] arr2) {
