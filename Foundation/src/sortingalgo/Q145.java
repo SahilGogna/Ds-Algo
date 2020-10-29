@@ -1,5 +1,13 @@
 package sortingalgo;
 
+/**
+ * we consider ith element to be min
+ * then we loop from i+1th element
+ * and find the index of min element
+ *
+ * at the end we swap the ith element with the min element index,
+ * by this first i elements are always sorted
+ */
 public class Q145 {
     public static void main(String[] args) {
         int[] arr = {2,5,3,7,4,1,9,6};

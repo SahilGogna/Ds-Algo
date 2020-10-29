@@ -151,3 +151,4 @@ Min stack using constant time and space.
 
 ## Sorting Algo
 145. Selection Sort
+146. Insertion Sort
