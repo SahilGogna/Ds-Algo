@@ -18,8 +18,7 @@ public class Q148 {
         int mid = (low + high)/2;
         int[] arr1 = mergeSortArray(arr, low, mid);
         int[] arr2 = mergeSortArray(arr,mid+1,high);
-        int[] sortedArr =  mergeSortedArrays(arr1,arr2);
-        return sortedArr;
+        return mergeSortedArrays(arr1,arr2);
     }
 
     private static int[] mergeSortedArrays(int[] arr1, int[] arr2) {
