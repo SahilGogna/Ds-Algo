@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 145
+#### Current Count = 150
 
 ## Basics
 Question 1-12
@@ -155,3 +155,4 @@ Min stack using constant time and space.
 147. Merge 2 sorted arrays
 148. Merge Sort
 149. Quick Sort
+150. Count sort
