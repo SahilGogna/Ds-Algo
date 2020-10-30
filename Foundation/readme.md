@@ -154,3 +154,4 @@ Min stack using constant time and space.
 146. Insertion Sort
 147. Merge 2 sorted arrays
 148. Merge Sort
+149. Quick Sort
