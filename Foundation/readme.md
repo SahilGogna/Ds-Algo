@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 153
+#### Current Count = 154
 
 ## Basics
 Question 1-12
@@ -159,3 +159,4 @@ Min stack using constant time and space.
 151. Sorting date - using count and radix sort
 152. sort 01
 153. sort 012
+154. Target sum pair
