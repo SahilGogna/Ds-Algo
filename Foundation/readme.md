@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 155
+#### Current Count = 156
 
 ## Basics
 Question 1-12
@@ -162,5 +162,6 @@ Min stack using constant time and space.
 154. Target sum pair
 
 ## Dynamic Programming
-155. 
+155. Memoization in DP - Fibo example
+156. Climbing stairs, using Memoization and Tabulation
 
