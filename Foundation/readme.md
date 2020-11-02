@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 154
+#### Current Count = 155
 
 ## Basics
 Question 1-12
@@ -149,7 +149,7 @@ Min stack using constant time and space.
 ## Graphs
 143. Construction of a graph, Find Path in Graphs using Depth First Search, Print all paths from source to destination
 
-## Sorting Algo
+## Sorting Algos
 145. Selection Sort
 146. Insertion Sort
 147. Merge 2 sorted arrays
@@ -160,3 +160,7 @@ Min stack using constant time and space.
 152. sort 01
 153. sort 012
 154. Target sum pair
+
+## Dynamic Programming
+155. 
+
