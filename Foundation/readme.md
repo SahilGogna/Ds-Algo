@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 157
+#### Current Count = 159
 
 ## Basics
 Question 1-12
@@ -166,4 +166,4 @@ Min stack using constant time and space.
 156. Climbing stairs, using Memoization and Tabulation
 157. Climbing Stairs with Jumps
 158. Climb Stairs with Minimum Moves
-
+159. Minimum Cost Path in a maze
