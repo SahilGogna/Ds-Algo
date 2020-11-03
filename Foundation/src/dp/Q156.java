@@ -43,6 +43,11 @@ public class Q156 {
         return total;
     }
 
+    /**
+     * 1. storage and identify meaning
+     * 2. identify direction
+     * 3. travel and solve
+     */
     public static int countStairsTab(int n){
         int[] dp = new int[n+1];
 
