@@ -6,8 +6,12 @@ public class Q160 {
     public static void main(String[] args) {
         int arr[] = {1, 2, 3, 4, 5, 6};
         Node root = constructTree(arr, 0, new Node(),0);
-        int reqLevel = getLevel(root, 1, 0);
-        System.out.print(getSameLevelElements(root,1,reqLevel));
+//        int reqLevel = getLevel(root, 1, 0);
+//        System.out.print(getSameLevelElements(root,1,reqLevel));
+        int[] a = getSolution(root,6);
+        for(int e:a){
+            System.out.print(e+"\t");
+        }
     }
 
     public static void printLevelOrder(Node root){
@@ -56,6 +60,41 @@ public class Q160 {
         return list;
     }
 
+    public static int[] getSolution(Node node, int element){
+        ArrayDeque<Node> q = new ArrayDeque<>();
+        q.add(node);
+        int size;
+        boolean flag = false;
+        while(!q.isEmpty()){
+            size = q.size();
+            int[] arr = new int[size];
+            int i = 0;
+            while(size > 0){
+                Node n = q.removeFirst();
+                if(n.data != element){
+                    arr[i] = n.data;
+                    i++;
+                }else {
+                    flag = true;
+                }
+                if(n.left != null){
+                    q.add(n.left);
+                }
+                if(n.right != null){
+                    q.add(n.right);
+                }
+                size--;
+            }
+            if(flag){
+                int[] retArray = new int[arr.length - 1];
+                for(int k = 0; k<retArray.length; k++){
+                    retArray[k] = arr[k];
+                }
+                return retArray;
+            }
+        }
+        return null;
+    }
 
 
     public static void printInorder(Node node){
