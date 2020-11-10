@@ -48,11 +48,29 @@ public class Q68 {
         }
     }
 
+    public static void levelOrderLine2(Node node){
+        ArrayDeque<Node> q = new ArrayDeque<>();
+        q.add(node);
+        int size;
+        while(!q.isEmpty()){
+            size = q.size();
+            while(size > 0){
+                Node n = q.removeFirst();
+                System.out.print(n.data+" ");
+                for(Node child:n.children){
+                    q.add(child);
+                }
+                size--;
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         int[] arr = {10, 20, 50, -1, 60, -1, -1, 30, 70, -1,
                 80, 110, -1, 120, -1, -1, 90, -1, -1, 40, 100, -1, -1, -1};
 
         Node root = formGenericTree(arr);
-        levelOrderTraversal(root);
+        levelOrderLine2(root);
     }
 }
