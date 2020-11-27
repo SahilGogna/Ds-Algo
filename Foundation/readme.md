@@ -171,3 +171,5 @@ Min stack using constant time and space.
 160. Path with Maximum Gold
 161. Target Sum Subsets
 162. Coin Change Combination Problem
+163. Coin Change Permutations Problem (Total Number of Ways to Get Amount)
+
