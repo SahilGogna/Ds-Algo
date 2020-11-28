@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 160
+#### Current Count = 164
 
 ## Basics
 Question 1-12
@@ -172,4 +172,4 @@ Min stack using constant time and space.
 161. Target Sum Subsets
 162. Coin Change Combination Problem
 163. Coin Change Permutations Problem (Total Number of Ways to Get Amount)
-
+164. 0-1 Knapsack Problem
