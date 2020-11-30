@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 164
+#### Current Count = 165
 
 ## Basics
 Question 1-12
@@ -173,3 +173,4 @@ Min stack using constant time and space.
 162. Coin Change Combination Problem
 163. Coin Change Permutations Problem (Total Number of Ways to Get Amount)
 164. 0-1 Knapsack Problem
+165. Unbounded Knapsack
