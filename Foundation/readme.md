@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 167
+#### Current Count = 168
 
 ## Basics
 Question 1-12
@@ -176,3 +176,4 @@ Min stack using constant time and space.
 165. Unbounded Knapsack
 166. Count Binary Strings
 167. Arrange Buildings Dynamic Programming
+168. Decode Ways 
