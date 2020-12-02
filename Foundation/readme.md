@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 168
+#### Current Count = 171
 
 ## Basics
 Question 1-12
@@ -179,3 +179,4 @@ Min stack using constant time and space.
 168. Decode Ways 
 169. Count Subsequences of form A^i B^j C^k | Count A+ B+ C+ Subsequences
 170. Maximum Sum Non Adjacent Elements
+171. Paint House
