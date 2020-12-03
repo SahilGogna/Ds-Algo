@@ -180,3 +180,4 @@ Min stack using constant time and space.
 169. Count Subsequences of form A^i B^j C^k | Count A+ B+ C+ Subsequences
 170. Maximum Sum Non Adjacent Elements
 171. Paint House
+172. Paint House - 2 (Many Colors)
