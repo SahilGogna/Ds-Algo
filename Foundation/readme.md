@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 171
+#### Current Count = 174
 
 ## Basics
 Question 1-12
@@ -182,3 +182,4 @@ Min stack using constant time and space.
 171. Paint House
 172. Paint House - 2 (Many Colors)
 173. Paint Fence (Leetcode)
+174. Tiling with Dominoes
