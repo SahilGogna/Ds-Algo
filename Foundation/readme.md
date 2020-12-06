@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 178
+#### Current Count = 180
 
 ## Basics
 Question 1-12
@@ -188,3 +188,4 @@ Min stack using constant time and space.
 177. Partition into Subsets
 178. Best Time to Buy and Sell Stocks - One Transaction Allowed
 179. Best Time to Buy and Sell Stocks - 2 (Infinite Transactions)
+180. Best Time to Buy and Sell Stocks with Transaction Fee and Infinite Transactions
