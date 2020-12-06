@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 177
+#### Current Count = 178
 
 ## Basics
 Question 1-12
@@ -186,3 +186,4 @@ Min stack using constant time and space.
 175. Tiling with M x 1 Tiles
 176. Friends Pairing Problem
 177. Partition into Subsets
+178. Best Time to Buy and Sell Stocks - One Transaction Allowed
