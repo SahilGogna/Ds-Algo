@@ -1,6 +1,6 @@
 
 # List of Questions - Data Structures and Algorithms
-#### Current Count = 176
+#### Current Count = 177
 
 ## Basics
 Question 1-12
@@ -185,3 +185,4 @@ Min stack using constant time and space.
 174. Tiling with Dominoes
 175. Tiling with M x 1 Tiles
 176. Friends Pairing Problem
+177. Partition into Subsets
