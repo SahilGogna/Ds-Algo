@@ -30,7 +30,7 @@ public class NextGreaterorSmaller {
         return arr1;
     }
 
-    // next smaller on right
+    // next smaller on right 
     public static int[] nsr(int[] arr){
         Stack<Integer> st = new Stack<>();
         int[] arr1 = new int[arr.length];
