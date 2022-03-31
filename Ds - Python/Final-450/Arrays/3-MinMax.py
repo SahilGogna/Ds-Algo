@@ -44,4 +44,5 @@ arr = [int(x) for x in input().split()]
 
 p = MinMax(arr, 0, len(arr) - 1)
 
-print("Min = {}, Max = {}".format( p.min, p.max))
+print("Min = {}, Max = {}".format(p.min, p.max))
+print("Min =", p.min, "Max =", p.max)
